@@ -1,7 +1,6 @@
-2012 NCTU Compiler
----
+## 2012 NCTU Compiler
 
-# Outline
+### Outline
 
 This is my Comipler course project in NCTU, 2012. The project has series of goals and this is the final one.
 
