@@ -1,0 +1,29 @@
+float g_a[5][5];
+int main()
+{
+   float a[2][2][2][2];
+   float b[5];
+   float e;
+   int c = 3;
+  
+   b[1] = 5.0;
+   b[2] = 1.0;
+   write(b[2]);
+   write("\n");
+   a[1][c-3][1][1]=b[1]*b[1]-b[1];
+   write(a[1][c-3][1][1]);
+   write("\n");
+   write(a[1][0][1][1]);
+   write("\n");
+   b[1] = a[1][0][1][1];
+   write(b[1]);
+   write("\n");
+   e = a[1][0][1][1];
+   write(e);
+   write("\n");
+   g_a[3][2] = 20.1;
+   write(g_a[3][2]);
+   write("\n");
+   return 0;
+}
+

@@ -1,0 +1,11 @@
+int main()
+{
+   int a = 11;
+   int b = 6;
+   if (  (a < b)  &&  (a < 10) || (b > 5) )
+   {
+      a = 2;
+   }
+   write(a);
+   return 0;
+}

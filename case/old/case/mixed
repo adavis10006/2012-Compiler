@@ -1,0 +1,19 @@
+float xtern;
+
+float change(){return xtern;}
+
+int main(){
+	int a;
+	float result;
+	a = 0;
+
+	if(a == 0){xtern = 1.5;}
+	else {xtern = 2.0;}
+
+	result = change();
+	write(xtern);
+
+	result = result + 0.5;
+	write(result);
+	return 0;
+}

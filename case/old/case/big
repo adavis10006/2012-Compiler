@@ -1,0 +1,33 @@
+int f;
+
+int loop(){
+  f = 7;
+  while(f>0){
+   write(f);
+   f = f-1;
+ }
+
+ return f;
+}
+
+int main()
+{
+  int a[10];
+  int b[10];
+  int c[10];
+  int temp = 0;
+  int count = 0;
+  while(count < 10){
+    a[count] = count;
+    b[count] = count;
+    write(a[count]);
+    count = count + 1;
+  }
+
+  count = 0;
+
+  temp = loop();
+
+  write(temp);
+  return 0;
+}

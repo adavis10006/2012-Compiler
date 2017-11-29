@@ -1,0 +1,17 @@
+void yo()
+{
+	write("yo!");
+}
+
+int main()
+{
+	int n;
+	write("Tell me your age:");
+	n = read();
+	while(n > 0){
+		yo();
+		n = n - 1;
+	}
+
+	return 0;
+}

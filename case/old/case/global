@@ -1,0 +1,16 @@
+int a;
+
+int local(){
+	a = 5;
+	return a;
+}
+
+int main(){
+	int a;
+	int b;
+	a = 6;
+	b = local();
+	write(a);
+	write(b);
+	return 0;
+}

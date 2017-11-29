@@ -1,0 +1,13 @@
+int main()
+{
+	int index;
+	int result;
+	index = 100;
+	result = 0;
+	while(index > 0){
+		result = result + 1;
+		index = index - 1;
+	}
+	write(result);
+	return 0;
+}
